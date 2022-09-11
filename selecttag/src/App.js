@@ -35,7 +35,7 @@ function App() {
  
   return (
     <div style={styles.app}>
-      <CustomSelect isMulti={true} style={styles.select} defaultValue={[options[3]]} onChange={onChangeInput} options={options} label="Choose a color" />
+      <CustomSelect isMulti={true} style={styles.select} defaultValue={[options[3]]} onChange={onChangeInput} options={options} label="Choose your fav color" />
     </div>
   
   );
